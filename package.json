@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server --open chrome",
-    "webpack":"webpack --webapck.config.js"
+    "webpack":"webpack --webpack.config.js"
   },
   "author": "",
   "license": "ISC",
