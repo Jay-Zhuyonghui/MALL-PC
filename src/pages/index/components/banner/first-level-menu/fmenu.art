@@ -1,0 +1,12 @@
+ {{each items}}
+ <li data-n="{{$value.key}}">
+  <div class="inn">
+   <div class="t">{{$value.title}}</div>
+   <div class="e">
+    <% include('./fmenu_1.art',{
+     subTitles:$value.subTitles
+    }) %>
+   </div>
+  </div>
+ </li>
+ {{/each}}

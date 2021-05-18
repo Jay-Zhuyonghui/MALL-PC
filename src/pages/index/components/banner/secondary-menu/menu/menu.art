@@ -1,0 +1,12 @@
+<div class="menu_inn">
+ <dl>
+  {{each data}}
+  <dt>{{$value.title}}</dt>
+  <dd>
+   <% include('./menu_1.art',{
+    cities:$value.cities
+   }) %>
+  </dd>
+  {{/each}}
+ </dl>
+</div>

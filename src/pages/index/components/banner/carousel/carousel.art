@@ -1,0 +1,16 @@
+ <ul id="carousel_list">
+  {{each items}}
+  <li>
+   <img src="{{$value.url}}" alt="" />
+  </li>
+  {{/each}}
+ </ul>
+ <div class="circles" id="circles">
+  <ol>
+   <li class="cur"></li>
+   <li></li>
+   <li></li>
+   <li></li>
+   <li></li>
+  </ol>
+ </div>

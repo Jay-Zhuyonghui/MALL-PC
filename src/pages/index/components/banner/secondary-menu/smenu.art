@@ -1,0 +1,18 @@
+ <div class="menu" data-n="hot">
+  {{include './menu/menu.art'}}
+ </div>
+ <div class="menu" data-n="hk">
+  {{include './menu/menu.art'}}
+ </div>
+ <div class="menu" data-n="japan">
+  {{include './menu/menu.art'}}
+ </div>
+ <div class="menu" data-n="asia">
+  {{include './menu/menu.art'}}
+ </div>
+ <div class="menu" data-n="eu">
+  {{include './menu/menu.art'}}
+ </div>
+ <div class="menu" data-n="au">
+  {{include './menu/menu.art'}}
+ </div>

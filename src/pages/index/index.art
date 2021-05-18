@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>慕云游</title>
+	</head>
+	<body>
+		<header class="site-head">
+			<!-- 顶部小黑条 -->
+			{{include '../../components/topbar/topbar.art'}}
+			<!-- header区域 -->
+			{{include '../../components/header/header.art'}}
+			<!-- 搜索区域 -->
+			{{include '../../components/search/search.art'}}
+		</header>
+		<section class="banner" id="banner">
+			<!-- 轮播图 -->
+			<div class="carousel">
+				{{include './components/banner/carousel/carousel.art'}}
+			</div>
+			<div class="center-wrap">
+				<!-- 轮播图按钮 -->
+				{{include './components/banner/button/button.art'}}
+				<div class="v-menu-box" id="v-menu-box">
+					<!-- 一级菜单 -->
+					<nav class="v-menu" id="v-menu">
+						<ul id="fmenu">
+							{{include './components/banner/first-level-menu/fmenu.art'}}
+						</ul>
+					</nav>
+					<!-- 二级菜单 -->
+					<div class="menus" id="menus">
+						{{include './components/banner/secondary-menu/smenu.art'}}
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="layer fav-ad">
+			{{include './components/ads/ads.art'}}
+		</section>
+		<!-- 新鲜甩尾 -->
+		<section class="layer xxsw">
+			<div class="center-wrap">
+				{{include './components/xxsw/xxsw.art'}}
+			</div>
+		</section>
+		<section class="layer layer-common-style jjzyx">
+			<div class="center-wrap">
+				{{include './components/jjzyx/jjzyx.art'}}
+			</div>
+		</section>
+		<section class="layer ddwl">
+			<div class="center-wrap">
+				{{include './components/ddwl/ddwl.art'}}
+			</div>
+		</section>
+		<section class="layer tsddty">
+			<div class="center-wrap">
+				{{include './components/tsddty/tsddty.art'}}
+			</div>
+		</section>
+		<section class="layer layer-common-style another-style zsj">
+			<div class="center-wrap">
+				{{include './components/zsj/zsj.art'}}
+			</div>
+		</section>
+		<section class="layer layer-common-style another-style gt">
+			<div class="center-wrap">
+				{{include './components/gt/gt.art'}}
+			</div>
+		</section>
+		<footer>
+			{{include '../../components/footer-nav/footer_nav.art'}}
+   {{include '../../components/bottom-bar/bottom_bar.art'}}
+   {{include '../../components/backtotop/backtotop.art'}}
+		</footer>
+	</body>
+</html>
